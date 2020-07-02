@@ -202,3 +202,45 @@ hr{
   display: block;
   clear:both;
 }
+
+footer{
+  height: 120px;
+  background-color: lightgrey;
+}
+
+.footer-col-sx{
+  width: 50%;
+  float: left;
+}
+
+.footer-col-sx > h2{
+  text-align: center;
+  line-height: 120px;
+}
+
+.footer-col-dx{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+ul > li{
+  list-style: none;
+  display: inline-block;
+  line-height: 120px;
+  margin: 0 10px;
+}
+
+.footer-button{
+  border-radius: 5px;
+  background: #7CBB02;
+  padding: 10px;
+  color: white;
+  border-color: #7CBB02;
+}
+
+.special{
+  position: absolute;
+  bottom: 0;
+  left: 18%;
+}
