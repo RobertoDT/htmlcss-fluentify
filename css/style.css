@@ -168,4 +168,31 @@ hr{
 
 .separatore{
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.prima-colonna{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.seconda-colonna{
+  width: 20%;
+  float: left;
+}
+
+.prima-colonna > img {
+  width: 300px;
+  height: 300px;
+}
+
+.seconda-colonna > p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.seconda-colonna > a{
+  font-size: 10px;
 }
