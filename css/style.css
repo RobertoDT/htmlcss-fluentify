@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 400px;
+  background-color: blue;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li {
+  display: inline-block;
+}
+
+.header-top{
+  height: 70px;
+  line-height: 70px;
+}
+
+.header-top::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-top-logo{
+  float: left;
+  width: 20%;
+}
+
+.header-top-nav-left{
+  float: left;
+  width: 40%;
+}
+
+.header-top-nav-right{
+  float: left;
+  width: 40%;
+  text-align: right;
+}
+
+.header-top li{
+  margin: 0 10px;
+}
+
+.header-top li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
