@@ -14,11 +14,11 @@ body{
 }
 
 header{
-  height: 600px;
+  height: 700px;
   background-image: url(../img/background-header.png);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  background-size: 50%;
+  background-position: right bottom;
   background-color: #2A4781;
   position: relative;
 }
@@ -96,7 +96,7 @@ header{
 .banner {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 30px;
@@ -195,4 +195,10 @@ hr{
 
 .seconda-colonna > a{
   font-size: 10px;
+}
+
+.section-bottom::after{
+  content: "";
+  display: block;
+  clear:both;
 }
